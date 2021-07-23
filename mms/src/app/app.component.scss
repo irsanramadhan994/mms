@@ -1,0 +1,56 @@
+.container{
+    height:100%;
+
+
+    
+
+    div{
+        border:1px solid black;
+        height: 100%;
+    }
+
+    .flex-container-row{
+        display: flex;
+        
+
+        .flex-row:first-child{
+            flex: 1;
+            padding: 10px;
+        }
+
+        .flex-row:last-child{
+            flex: 5;
+        }
+    }
+
+    .flex-container-column{
+        display: flex;
+        flex-direction: column;
+
+        .flex-row:first-child{
+            flex: 1;
+        }
+
+        .flex-row:last-child{
+            flex: 6;
+            padding: 10px;
+        }
+    }
+
+    .home{
+        height: 100%;
+
+        
+        
+    }
+
+    .header{
+        height: 100%;
+    }
+    
+    .navbar{
+        height: 100%;
+    }
+    
+}
+
